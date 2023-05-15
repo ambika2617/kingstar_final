@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Rajdhani:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,400;0,500;1,300;1,500&display=swap');
+*{
+font-family: 'Roboto', sans-serif;
+text-decoration: none;
+margin: 0%;
+padding:0%;
+box-sizing: border-box;
+text-transform: capitalize;
+text-decoration: none;
+transition: all 0.2s linear;
+
+}
+
+.icons i{
+    color:#ccc;
+    font-size: larger;
+    padding: 0% 10px;
+    margin-top:-20%;
+    
+}
+.icons i:hover{
+    color:#000;
+    font-size: larger;
+    padding: 0% 5%;
+}
+.header{
+    background-color: rgb(49, 145, 234);
+    color:azure;
+}
+.btn{
+    color:#000;
+    background-color: aliceblue !important;
+    padding:5px 10px;
+ border:  2px solid white !important;
+ 
+}
+.btn-1{
+    color:#000;
+    background-color: rgb(19, 187, 49);
+    padding:5px 10px;
+    border:  2px solid rgb(19, 187, 49)!important;
+   
+}
+.header .img{
+    border:5px solid  white
+    
+}
