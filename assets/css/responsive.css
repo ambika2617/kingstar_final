@@ -1,0 +1,93 @@
+@media (max-width:600px) {
+    .testimonial-2 .card .mobile{
+        display: none;
+       
+    }
+
+    .top ul {
+        display: none;
+    }
+    .hero ul{
+        display: none;
+
+    }
+    .about .card {
+        margin-top: 20px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .services-1 span{
+       
+       
+            margin-left: -30%!important;
+                  
+                 
+           
+    }   
+    .faq-body{
+        margin-top: 10%;
+    }  
+    .faq-content{
+    margin-right: 10%;
+    
+
+    } 
+    .plans .card {
+        margin-top: 30px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .part .button{
+        margin-top: 2px;
+    }
+    .services-1 .deco{
+        margin-left: 20%;
+        margin-top:10%;
+    }
+    .team .card{
+        margin-top: 30px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .abouts img{
+        margin-top: 15%;
+    }
+    .abouts{
+        margin-top: 10%;
+    }
+    
+    .help .row{
+        text-align: center;
+
+    }
+    .help .row p{
+        text-align: center;
+
+    }
+    .help h2{
+        margin-left: 15%;
+    }
+    .help h5{
+        margin-top:5%;
+    }
+    .contact span{
+      margin-left: 40%;
+     
+    }
+    .contact p{
+        margin-bottom: 10%;
+    }
+    .services-head .card{
+        margin-top: 20px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer h4{
+       margin-top: 5%;
+    }
+}

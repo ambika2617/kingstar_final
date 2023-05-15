@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    letter-spacing: normal;
+    line-height: 5px;
+}
+
+p {
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 400;
+    color: #555;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+section {
+    margin: 5% 0;
+}
+
+/*=======Sub Headings=====*/
+.sub-heading {
+    color: #E91A2F;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+h6 {
+    color: #E91A2F;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.sub-heading i {
+    background-color: #E91A2F;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-right:6px;
+   padding-left:10px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+
+ ul li{
+    list-style-type: none;
+    display: inline
+}
+
+ i{
+    color:red;
+    padding:5px;
+    font-size: larger;  
+    border-radius: 50%; 
+    }
+
+  .top ul li {
+        padding:10px;
+    }
+.top p a{
+    text-decoration: none!important;
+    color:#fff!important;
+}
+.top p a:hover{
+     text-decoration: none!important;
+    color:#fff;
+}
+
+    
+/*=================== navbar============================*/
+ .navbar ul li{
+    display: inline;
+    padding-right:20px;
+}
+.navbar h1{
+    color:#E91A2F;
+}
+.navbar ul li a{
+    color:#333;    
+ }
+
+.navbar ul li a:hover{
+    color:#E91A2F;
+}
+
+.navbar ul li .active{
+    color:#E91A2F !important;
+}
+
+
+   .button{
+        color: #fff;
+        background-color:#E91A2F;
+        padding:8px 20px;
+        border:2px solid #E91A2F;
+        border-radius: 10px;
+        transition: all 0.6s;
+        font-weight: 500;
+
+    }
+   
+    .button a{
+        color: #fff !important;;
+        text-decoration: none;
+        background-color:#E91A2F;
+    }
+    .button a:hover{
+        background-color:black;
+        color: #fff !important;;
+    }
+   
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+    .button:hover{
+        color: #fff!important;
+        background-color: black; 
+        border-color: black;   
+        border:2px solid #050505;
+    }
+    
+  
+  
+
+/*================ hero ====================*/
+.hero h1{
+ font-size:300%;
+}
+.hero ul li{
+    display: inline;
+}
+.hero{
+    background-image: url("../img/women-touching-tablet_1157-597.jpg");
+    background-position: center;
+    background-size: cover;
+    width:100%;
+    height:auto;
+    padding-top:10px ;
+    padding-bottom: 55px;
+    background-blend-mode: darken;
+    background-color: rgba(0,0,0,0.7);
+}
+.hero.sub-heading i{
+    background-color:#fff!important;
+    padding: 10px;
+    border-radius: 50%;
+    color: #E91A2F!important;
+    font-size: 16px;
+
+
+}
+.hero .button{
+    margin-left: 30%;
+}
+
+/*======================== about ===========================*/
+
+.about .card:hover{
+    color:white;
+    background-color: red;
+    border-radius: 10px;
+}
+.about .card:hover p{
+    color: white !important;;
+}
+.about .card:hover i{
+    color: white !important;;
+}
+
+.about span{
+    font-size:xx-large;
+}
+
+.about .card {
+    border-radius: 10px;
+}
+.about .card p{
+    text-align: justify;
+}
+/*============================== about-1======================================*/
+.tag-1{
+    height:150px;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -8%;
+    margin-left:77%;
+
+}
+.tag{
+   height:120px;
+   width:120px;
+   margin-top:-25%;
+   margin-left:48%;
+   align-items: center;
+   justify-self: center;
+   display: flex;
+}
+.about-1 p{
+    margin-top:5%;
+}
+
+
+/*
+.about pic{
+    background-image: url("../img/brothers-playing-on-playstation-e1615963163461.jpg")  class="rounded-pill w-100";
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    width:100%;
+    height:auto;
+    padding:20px;
+}
+.about-../img ../img{
+  opacity: 0.8;
+}
+*/
+/*============================== services ====================================*/
+.services p{
+    text-align: center;
+    font-weight:600;
+}
+.services i {
+    font-size:40px;
+    text-align: center!important;
+}
+/*=========================== part =====================================================*/
+.part{
+    padding:9% 0%;
+}
+.part .button{
+    
+    margin-top: 10%;
+}
+/*======================================== plans =======================================================*/
+.plans .card{
+    border-radius: 15px;
+
+}
+.plans.span{
+    font-size:xx-large;
+}
+.plans span{
+    background-color: white;
+    border-radius: 50%;
+    padding:10px;
+    
+
+}
+.plans.card{
+    border:0px
+}
+/*====================== map =======================================*/
+.map.text{
+text-align: left;
+justify-content: left;
+}
+/*=======================================  testimonial =============================================*/
+.testimonial-2 i{
+    color:rgb(222, 194, 40)
+}
+.testimonial-2{
+    margin-top: -14%;
+}
+.testimonial span{
+   font-size: x-large;
+   background-color: white;
+   border-radius: 50%;
+   padding: 10px 3px;
+}
+.testimonial{
+    background-image: url("../img/pricing_thumb01.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+     width:100%;
+     height:auto;
+    padding:8% 0%;
+    color:white;
+    background-blend-mode: darken;
+    background-color: rgba(0,0,0,0.6);
+}
+.testimonial .card{
+    border-radius: 10px;
+}
+/*========================== footer ======================================*/
+.footer i{
+   
+    background-color: white;
+    border-radius: 50%;
+    padding:10px;
+}
+.footer{
+    background-color: rgb(35, 4, 35);
+}
+
+
+ .footer button a{
+     text-decoration: none;
+     color:white;
+ }
+ .footer a{
+    text-decoration: none;
+    color:white
+
+ }
+ .footer ul li a:hover{
+    color:#ccc;
+ }
+
+ /*=============================================
+         About Us Page
+  =============================================*/
+.about-hero {
+    background-image: url("../img/router.jpg");
+    background-position:  bottom left;
+    background-size: cover;
+    width:100%;
+    height:200px;
+    padding: 10%;
+    background-blend-mode: darken;
+    background-color: rgba(0,0,0,0.5);
+  
+  }
+
+.abouts .progress-bar{
+    background-color:#E91A2F;
+   border-radius: 8px;
+   
+   
+ 
+}
+.abouts span{
+    margin-left: 50%;
+}
+/*=====================services-1=============================*/
+.services-1 span {
+    border-radius: 50%;
+    background-color: white!important;
+    color: #e91a2f !important;
+    padding:30px;
+    font-size: 30px;
+    text-align: center!important;
+    margin-bottom: 10% !important;  
+}
+.services-1 h4{
+    margin-top: 25%;
+}
+.services-1 .deco{    
+    border-bottom:2px dashed  #E5E5E5;
+}
+/*=================== help ===========================*/
+.help{
+    background-image: url("../img/server.jpg");
+    background-position:center;
+    background-size: cover;
+    width:100%;
+    height:auto;
+    padding:40px;
+    background-blend-mode: darken;
+    background-color: rgba(0,0,0,0.5);
+}
+.help img{
+   border-radius: 20px;
+   margin-top: -17%;
+  
+}
+/*===================== team ============================*/
+.team .card{
+    background-color: #252433;
+    border-radius: 10px;
+    padding-bottom: 34%;
+    z-index:-1;
+}
+.team-item{
+  z-index:0;
+  margin-top:-35%;
+  text-align: center;
+
+}
+/*==================== contact ====================================*/
+.contact span{
+    border-radius: 50%;
+    background-color: white!important;
+    color: #e91a2f !important;
+    padding:30px;
+    font-size: 30px;
+    text-align: center!important;
+    margin-left: 20%; 
+}
+.contact-hero {
+    background-image: url("../img/doctor-and-patient-meeting-in-the-office.jpg");
+    background-position:bottom;
+    background-size: cover;
+    width:100%;
+    height:auto;
+    padding: 10%;
+    background-blend-mode: darken;
+    background-color: rgba(2, 2, 2, 0.5);
+  
+  }
+.contact h4{
+    margin-top: 25%;
+}
+.contact .deco-1{
+    border-bottom:2px dashed  #E5E5E5;
+  
+}
+ .contact-1{
+    background-image: url("../img/router.jpg");
+    background-position:center;
+    background-size: cover;
+    width:100%;
+    height:auto;
+    padding: 5% 0;
+    background-blend-mode: darken;
+    background-color: rgba(0,0,0,0.3);
+  
+}
+/*============= faq ==================*/
+.faq .faq-img{
+    background-image: url("../img/hero-img.webp");
+    background-position:center;
+    background-size: cover;
+    width:100%;
+    height:auto;
+    padding:20%;
+    background-blend-mode: darken;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 10px;
+}
+.faq-body{
+    padding-left:50px;
+}
+/*================= services ========================*/
+.services-head .card:hover{
+    color:white;
+    background-color: red;
+    border-radius: 10px;
+}
+.services-head p{
+    text-align: justify;
+}
+
+.services-head  .card:hover p{
+    color: white !important;;
+}
+.services-head  .card:hover i{
+    color: white !important;;
+}
+
+.services-head  span{
+    font-size:xx-large;
+}
+
+.services-head  .card {
+    border-radius: 10px;
+}
+.services-hero {
+    background-image: url("../img/the-girl-is-shopping-on-the-internet.jpg");
+    background-position:center;
+    background-size: cover;
+    width:100%;
+    height:auto;
+    padding: 10%;
+    background-blend-mode: darken;
+    background-color: rgba(0,0,0,0.6);
+  
+  }
+
+/* contact form */
